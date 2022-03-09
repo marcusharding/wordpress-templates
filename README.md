@@ -13,7 +13,6 @@ yarn install
 ## Usage
 
 ```python
-import foobar
 
 # Builds for development and watches for changes
 yarn run dev
