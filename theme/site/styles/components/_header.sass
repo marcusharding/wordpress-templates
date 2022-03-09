@@ -1,0 +1,51 @@
+$header: fvp-header
+$nav: fvp-nav
+    
+.fvp-header__section
+    position: relative
+    height: 100vh
+    background-color: #121212
+
+.#{$header}
+    width: 90%
+    height: 100px
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    margin: 0 auto
+    z-index: 1000
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: space-between
+    
+    .#{$header}__logo
+        width: auto
+        height: auto
+        margin: 0
+
+        a
+            text-decoration: none
+            p
+                color: #ffffff
+                font-size: 25px
+                border: solid 3px
+                border-color: white
+                padding: 5px 15px
+
+.#{$nav}
+    .#{$nav}__menu
+        display: flex
+        flex-direction: row
+        list-style-type: none
+
+        li
+            a
+                color: white
+                font-size: 1.2rem
+                text-decoration: none
+
+            a:not(last-child)
+                margin-right: 20px
+

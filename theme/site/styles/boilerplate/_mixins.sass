@@ -1,0 +1,8 @@
+
+  
+=font-face($font-family, $local, $file-path, $font-weight, $font-style)
+  @font-face
+    font-family: quote($font-family)
+    font-weight: $font-weight
+    font-style: $font-style
+    src: local(quote($local)), url('../fonts/#{$file-path}.ttf') format(quote('truetype'))
