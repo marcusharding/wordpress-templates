@@ -18,11 +18,11 @@ Licence:
 
 namespace Pugpig\RollingStoneUk;
 
-try {
-  if (!require_once 'DependencyChecker.php') {
-      return;
-  }
-} catch (\Exception $e) {
-  error_log("Failed in dependency check - {$e->getMessage()}");
-  return;
-}
+// try {
+//   if (!require_once 'DependencyChecker.php') {
+//       return;
+//   }
+// } catch (\Exception $e) {
+//   error_log("Failed in dependency check - {$e->getMessage()}");
+//   return;
+// }
