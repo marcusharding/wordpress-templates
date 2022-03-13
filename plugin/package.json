@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate-wordpress-site",
+  "name": "boilerplate-wordpress-plugin",
   "version": "1.0.0",
-  "description": "Boilerplate wordpress site theme",
+  "description": "Boilerplate wordpress plugin",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
