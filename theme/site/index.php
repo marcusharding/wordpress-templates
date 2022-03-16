@@ -10,13 +10,11 @@ get_header(); ?>
     
         <?php  if (have_posts()) : while (have_posts()) : the_post();
 
-                the_content();
+            the_content();
             
-            endwhile;
+        endwhile;
         endif; ?>
 
-        <div class="fvp-header__section">
-        
-        </div>
-
     </main>
+
+<?php get_footer(); ?>
